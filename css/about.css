@@ -1,0 +1,72 @@
+.navbar {
+    margin: 20px;
+}
+
+.login-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: 0.5rem 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color:rgb(240, 112, 110);
+    color: black;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.apply-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: .7rem 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.apply-btn:hover {
+    background-color:rgb(240, 112, 110); ;
+    color: black;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.hero-section {
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+    background-size: cover;
+}
+
+.hero-section .container {
+    height: 60vh;
+    padding-top: 13rem;
+}
+
+.hero-section .container .container {
+    height: 60vh;
+}
+
+.hero-section .container .container p {
+    font-size: 1.3rem;
+}
+
+.hero-section .container .container .h1 b {
+    font-weight: 900;
+}
+
+.misvis {
+    margin-top: 250px;
+}
+
+.mission-vision {
+    height: 40vh;
+}

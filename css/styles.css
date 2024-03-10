@@ -1,0 +1,147 @@
+.navbar {
+    margin: 20px;
+}
+
+.login-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: 0.5rem 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color:rgb(240, 112, 110);
+    color: black;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.apply-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: .7rem 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.apply-btn:hover {
+    background-color:rgb(240, 112, 110); ;
+    color: black;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.hero-section {
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+    background-size: cover;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero-section h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.hero-section p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.carousel-section .container {
+    height: 70vh;
+    background: white;
+}
+
+.brand-section .container {
+    height: 35vh;
+    background-color: #f5f5f5;
+}
+
+.brand-section .header-container {
+    height: 10vh;
+}
+
+.brand-section .container a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.car-brand {
+    height: 120px;
+    width: 120px;
+}
+
+.car-link{
+    height: 120px;
+    width: 120px;
+}
+
+.popular-section {
+    height: 150vh;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.steps-section .container {
+    height: 35vh;
+}
+
+.steps-section .container .step {
+    height: 200px;
+    width: 250px;
+}
+
+.steps-section .container .step h3{
+    font-weight: 800;
+    color:rgb(216, 43, 37);
+}
+
+.car-link {
+    text-decoration: none;
+    color: rgb(216, 43, 37);
+}
+
+.car-link:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.affiliated-section {
+    height: 80vh;
+    width: 100%;
+}
+
+.por {
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 25vh;
+}

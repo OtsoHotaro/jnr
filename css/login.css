@@ -1,0 +1,25 @@
+.login-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: 0.5rem 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color:rgb(240, 112, 110);
+    color: black;
+}
+.form-container {
+    height: 100vh;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: rgb(216, 43, 37);
+}
+
+.signup-link:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

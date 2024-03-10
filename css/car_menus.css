@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+}
+
+.brand-card {
+    height: 50px;
+    width: 90px;
+}
+
+.sidebar {
+    width: 15%;
+}
+
+.nav-container {
+    height: 11vh;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(91, 91, 91);
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.login-btn {
+    background-color: rgb(216, 43, 37);
+    text-decoration: none;
+    padding: 0.5rem 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color:rgb(240, 112, 110);
+    color: black;
+}
+
+.link-container{
+    height: 70px;
+}
+
+.selected-brand  {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-content {
+    height: 87vh;
+    width: 100%;
+}
+
+.car_image_container {
+    width: 15rem;
+    height: 10rem;
+}
+
+.car_image_container .carname {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.car_image_container .carprice {
+    font-size: larger;
+}
+
+.car-link {
+    text-decoration: none;
+    color: rgb(216, 43, 37);
+}
+
+.car-link:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.left-main {
+    width: 100%;
+}
